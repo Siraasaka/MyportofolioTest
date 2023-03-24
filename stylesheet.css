@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: "Avenir Next";
+    text-align: center;
+    margin: 0;
+  }
+
+li {
+    list-style: none;
+  }
+
+a {
+  text-decoration: none;
+  }
+  
+.clear {
+    clear: left;
+  }
+
+  
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  width: 124px;
+  margin-top: 20px;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+  
+  .main {
+    width: 100%;
+
+  }
+  
+  .utama {
+    padding: 180px 0 100px 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+  .utama h1 {
+    font-size: 50px;
+  }
+  
+  .utama h2 {
+    font-weight: normal;
+  }
+  
+  .utama span {
+    color: #fff04a;
+  }
+  
+  .tentang-saya{
+    background-color:#dee7ec;
+    padding: 30px;
+  }
+
+  .contents {
+    height: 500px;
+    margin-top: 100px;
+
+  }
+  
+  .section-title {
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .contents-item {
+    float: left;
+    width: 33%;
+  }
+  
+  .contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .contact-form {
+    padding-top: 100px;
+    background-color:#dee7ec;
+  }
+  
+
+  input, textarea{
+    width:80%;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:14px;
+    border:1px solid #dee7ec;
+    border-radius: 5px;
+  }
+  
+
+  .contact-submit{
+    background-color:#fff04a;
+    color:black;
+    width: 400px;
+  }
+  
+  .footer {
+    background-color: #303636ec;
+    color: #fff;
+    height: 200px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+    font-size: small;
+    text-align: left;
+  }
+  
+ 
